@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<h1>Welcome to {{ title }}!</h1>
+
+<div><a [routerLink]="['/student']">Student</a></div>
+
+<div><a [routerLink]="['/studentdetails']">Student Details</a></div>
+
+<button (click)="student()">Show Student</button>
+
+<router-outlet></router-outlet>
